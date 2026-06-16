@@ -1,0 +1,23 @@
+.whatisintro {
+  height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.whatisintro-headline {
+  color: rgb(109, 203, 226);
+  font-weight: normal;
+  font-size: 25px;
+  text-align: left;
+  padding-bottom: 25px;
+  width: 1000px;
+}
+
+.whatisintro-text {
+  color: rgb(110, 110, 110);
+  font-size: 18px;
+  text-align: left;
+  width: 1000px;
+}

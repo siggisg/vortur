@@ -1,0 +1,61 @@
+.whofor {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+
+.whofor-headline {
+  color: rgb(109, 203, 226);
+  font-weight: normal;
+font-size: 25px;
+text-align: left;
+padding-bottom: 25px;
+width: 1000px;
+}
+
+.whofor-text {
+  color: rgb(110, 110, 110);
+  font-size: 18px;
+text-align: left;
+width: 1000px;
+padding-bottom: 25px;
+}
+
+.whofor-list {
+  color: rgb(110, 110, 110);
+  font-size: 16px;
+text-align: left;
+width: 1000px;
+list-style: none;
+  padding: 0;
+}
+
+.whofor-list li::before {
+  color: rgb(255, 200, 200);
+  content: "x";
+  margin-right: 10px;
+}
+
+.whofor-button {
+    margin-top: 20px;
+    padding: 12px 28px;
+
+    border: none;
+
+    background-color: rgb(159, 195, 204);
+    color: white;
+
+    font-size: 1rem;
+    font-weight: 600;
+    width: 170px;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.whofor-button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}

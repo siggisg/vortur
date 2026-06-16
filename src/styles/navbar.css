@@ -1,0 +1,62 @@
+.navbar {
+    position: relative;
+    top: 0;
+    left: 0;
+  
+    height: 125px;
+    width: 100%;
+  
+    padding: 1.5rem 3rem;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    z-index: 100;
+  
+    font-family: 'LilGrotesk', sans-serif;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    transition: 0.3s ease;
+  }
+
+  .navbar:hover {
+    background: white;
+    backdrop-filter: blur(10px);
+  }
+
+  .navbar-logo {
+    color: rgb(109, 203, 226);
+    font-size: 30px;
+  }
+
+  .navbar a {
+    font-family: 'LilGrotesk', sans-serif;
+    font-size: 20px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    opacity: 0.7;
+    color: rgb(109, 203, 226);
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 2rem;
+  
+    list-style: none;
+  }
+  
+  .navbar-links a,
+  .navbar-socials a {
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+  
+    font-weight: 500;
+  }
+  
+  .navbar-socials {
+    display: flex;
+    gap: 1rem;
+  }

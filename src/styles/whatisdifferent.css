@@ -1,0 +1,39 @@
+.whatisdifferent {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .whatisdifferent-headline {
+    color: rgb(109, 203, 226);
+    font-weight: normal;
+  font-size: 25px;
+  text-align: left;
+  padding-bottom: 25px;
+  width: 1000px;
+  }
+  
+  .whatisdifferent-text-1 {
+    color: rgb(110, 110, 110);
+    font-size: 18px;
+  text-align: left;
+  width: 1000px;
+  padding-bottom: 25px;
+  }
+  
+  .whatisdifferent-list {
+    color: rgb(110, 110, 110);
+    font-size: 16px;
+  text-align: left;
+  width: 1000px;
+  list-style: none;
+    padding: 0;
+  }
+  
+  .whatisdifferent-list li::before {
+    color: rgb(149, 255, 149);
+    content: "✓";
+    margin-right: 10px;
+  }
