@@ -2,7 +2,7 @@ import '../styles/navbar.css'
 import { FaFacebookF, FaInstagram, FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import { useState } from "react";
-import vorturlogo from '/public/vorturlogo.svg'
+//import vorturlogo from '/public/vorturlogo.svg'
 
 //<Link to="/">
 //            <h1 className='navbar-logo-text'>Vörtur</h1>
@@ -28,7 +28,7 @@ function Navbar({ openPopup }) {
         <div className="navbar-logo">
           <Link to="/">
             <div className="logo-container">
-              <img src={vorturlogo} alt="Vortur logo" />
+            <img src="/vorturlogo.svg" alt="Logo" />
             </div>
           </Link>
           

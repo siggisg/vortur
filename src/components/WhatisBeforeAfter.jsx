@@ -1,4 +1,5 @@
 import '../styles/whatisbeforeafter.css'
+import { Link } from 'react-router-dom';
 
 
 function whatisbeforeafter() {
@@ -13,12 +14,9 @@ function whatisbeforeafter() {
             <div className='whatisbeforeafter-linktopage'>
   <p className='whatisbeforeafter-text'>
     Hér má sjá niðurstöður eftir þrjú skipti með SWIFT meðferð, til að sjá fleiri fyrir og eftir myndir{' '}
-    <a
-      href='/fyrir-og-eftir'
-      className='whatisbeforeafter-link'
-    >
-      smellið hér.
-    </a>
+    <Link to="/fyrir-og-eftir" className="whatisbeforeafter-link">
+  smellið hér.
+</Link>
   </p>
 </div>
       </div>
