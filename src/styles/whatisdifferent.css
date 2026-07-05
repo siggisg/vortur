@@ -1,9 +1,10 @@
 .whatisdifferent {
-    height: 300px;
+    /*height: 300px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 50px;
   }
   
   .whatisdifferent-headline {
@@ -12,14 +13,20 @@
   font-size: 25px;
   text-align: left;
   padding-bottom: 25px;
-  width: 1000px;
+  max-width: 1000px;
+width: 100%;
+margin: 0 auto;
+
   }
   
   .whatisdifferent-text-1 {
     color: rgb(110, 110, 110);
     font-size: 18px;
   text-align: left;
-  width: 1000px;
+  max-width: 1000px;
+width: 100%;
+margin: 0 auto;
+
   padding-bottom: 25px;
   }
   
@@ -27,13 +34,38 @@
     color: rgb(110, 110, 110);
     font-size: 16px;
   text-align: left;
-  width: 1000px;
+  max-width: 1000px;
+width: 100%;
+margin: 0 auto;
+
   list-style: none;
     padding: 0;
   }
   
+  .whatisdifferent-list li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 12px;
+  }
+
   .whatisdifferent-list li::before {
     color: rgb(149, 255, 149);
     content: "✓";
     margin-right: 10px;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 768px) {
+    .whatisdifferent-headline {
+      /*max-width: 400px;*/
+    width: 85%;
+    }
+    .whatisdifferent-text-1 {
+      /*max-width: 400px;*/
+    width: 85%;
+    }
+    .whatisdifferent-list {
+      /*max-width: 400px;*/
+    width: 85%;
+    }
   }

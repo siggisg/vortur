@@ -1,0 +1,54 @@
+.beforeafter {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .beforeafter-headline {
+    color: rgb(109, 203, 226);
+    font-weight: normal;
+  font-size: 25px;
+  text-align: left;
+  padding-bottom: 25px;
+  max-width: 1000px;
+width: 100%;
+margin: 0 auto;
+
+  }
+  
+  .beforeafter-text {
+    color: rgb(110, 110, 110);
+    font-size: 18px;
+  text-align: left;
+  max-width: 1000px;
+width: 100%;
+margin: 0 auto;
+
+  padding-bottom: 25px;
+  }
+
+  .beforeafter-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 0;
+  }
+
+
+  @media (max-width: 768px) {
+
+    .beforeafter-grid {
+      align-items: center;
+    }
+    .beforeafter-headline {
+      /*max-width: 400px;*/
+      width: 85%;
+    }
+
+    .beforeafter-text {
+      /*max-width: 400px;*/
+      width: 85%;
+    }
+  }

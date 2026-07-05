@@ -4,6 +4,7 @@ function Popup({ isOpen, onClose, url }) {
     if (!isOpen) return null;
   
     const handleContinue = () => {
+      //window.open(url, '_blank');
       window.open(url, '_blank');
       onClose();
     };
@@ -23,14 +24,14 @@ function Popup({ isOpen, onClose, url }) {
 
 
           <div className="popup-whofor">
-            <p className='popup-whofor-text'>Meðferðin hentar ekki öllum og ekki er mælt með henni fyrir eftirfarandi:</p>
+            <p className='popup-whofor-text'>Swift vörtumeðferð er fyrir alla nema eftirfarandi:</p>
             <ul className='popup-whofor-list'>
-  <li>
+            <li>
   Þungaðar konur.
   </li>
 
-  <li>Fólk með gangráð eða önnur ígrædd rafbúnaðartæki
-  Svæði með grun um illkynja húðbreytingar.</li>
+  <li>Fólk með gangráð eða önnur ígrædd rafbúnaðartæki.</li>
+  <li>Svæði með grun um illkynja húðbreytingar.</li>
 
   <li>
     Sykursjúka.

@@ -4,7 +4,7 @@ function whatisdifferent() {
     return (
 
         <div className="whatisdifferent">
-            <h1 className='whatisdifferent-headline'>Hvað gerir SWIFT-vörtueyðingu frábrugðna öðrum meðferðum?</h1>
+            <h1 className='whatisdifferent-headline'>Hvað gerir SWIFT vörtumeðferð frábrugðna öðrum meðferðum?</h1>
             <p className='whatisdifferent-text-1'>SWIFT hefur verið frábær viðbót við vörtumeðferð af mörgum ástæðum:</p>
             <ul className='whatisdifferent-list'>
   <li>
@@ -13,11 +13,10 @@ function whatisdifferent() {
     meðferðina.
   </li>
 
-  <li>Enginn viðvarandi sársauki eftir meðferðina.</li>
+  <li>Enginn sársauki eftir meðferðina en doði og hiti getur komið á svæðið sem getur verið í einhverja daga eftir.</li>
 
   <li>
-    Yfirliggjandi húð þarf ekki að skera burt, sem þýðir minni hætta á
-    sýkingu og öramyndun.
+  Minni hætta á sýkingu og öramyndun.
   </li>
 
   <li>Enginn skaði verður á nærliggjandi húð og vefjum.</li>

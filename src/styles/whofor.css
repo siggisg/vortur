@@ -1,9 +1,10 @@
 .whofor {
-  height: 300px;
+  /*height: 300px;*/
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 50px;
   }
 
 .whofor-headline {
@@ -12,14 +13,20 @@
 font-size: 25px;
 text-align: left;
 padding-bottom: 25px;
-width: 1000px;
+max-width: 1000px;
+width: 100%;
+margin: 0 auto;
+
 }
 
 .whofor-text {
   color: rgb(110, 110, 110);
   font-size: 18px;
 text-align: left;
-width: 1000px;
+max-width: 1000px;
+width: 100%;
+margin: 0 auto;
+
 padding-bottom: 25px;
 }
 
@@ -27,15 +34,26 @@ padding-bottom: 25px;
   color: rgb(110, 110, 110);
   font-size: 16px;
 text-align: left;
-width: 1000px;
+max-width: 1000px;
+width: 100%;
+margin: 0 auto;
+
 list-style: none;
   padding: 0;
+  padding-bottom: 25px;
+}
+
+.whofor-list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 12px;
 }
 
 .whofor-list li::before {
   color: rgb(255, 200, 200);
   content: "x";
   margin-right: 10px;
+  flex-shrink: 0;
 }
 
 .whofor-button {
@@ -58,4 +76,19 @@ list-style: none;
 .whofor-button:hover {
     transform: scale(1.05);
     opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .whofor-headline {
+    /*max-width: 400px;*/
+    width: 85%;
+  }
+  .whofor-text {
+    /*max-width: 400px;*/
+    width: 85%;
+  }
+  .whofor-list {
+    /*max-width: 400px;*/
+    width: 85%;
+  }
 }
