@@ -25,6 +25,7 @@ margin: 0 auto;
     width: 50%;
     height: 50%;
     object-fit: cover;
+    padding-bottom: 10px;
 
 }
 

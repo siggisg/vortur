@@ -1,24 +1,27 @@
 import '../styles/footer.css'
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 
+
+//<div className='footer-opening'>
+//                <h3>Opnunartími</h3>
+//                <p>Mán-Fös 09:00-17:00</p>
+//            </div>
+
 function Footer() {
     return (
         <footer className="footer">
             <div className='footer-content'>
             <div className='footer-info'>
             <h2>Vörtur</h2>
-            <a href="tel:+3541234567">+354 123 4567</a>
+            <a href="tel:+3541234567">+354 555 2215</a>
     
             <a href="mailto:hello@email.is">
-                hello@email.is
+            swiftfotamedferd@gmail.com
             </a>
             <p>Dalshraun 11 220, 220 Hafnarfjörður</p>
             </div>
 
-            <div className='footer-opening'>
-                <h3>Opnunartími</h3>
-                <p>Mán-Fös 09:00-17:00</p>
-            </div>
+            
     
             <div className="footer-socials">
             <a 
