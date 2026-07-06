@@ -13,9 +13,9 @@ function Footer() {
             <div className='footer-content'>
             <div className='footer-info'>
             <h2>Vörtur</h2>
-            <a href="tel:+3541234567">+354 555 2215</a>
+            <a href="tel:+3545552215">+354 555 2215</a>
     
-            <a href="mailto:hello@email.is">
+            <a href="swiftfotamedferd@gmail.com">
             swiftfotamedferd@gmail.com
             </a>
             <p>Dalshraun 11 220, 220 Hafnarfjörður</p>
