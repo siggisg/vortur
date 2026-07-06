@@ -15,7 +15,7 @@ function Footer() {
             <h2>Vörtur</h2>
             <a href="tel:+3545552215">+354 555 2215</a>
     
-            <a href="swiftfotamedferd@gmail.com">
+            <a href="mailto:swiftfotamedferd@gmail.com">
             swiftfotamedferd@gmail.com
             </a>
             <p>Dalshraun 11 220, 220 Hafnarfjörður</p>
