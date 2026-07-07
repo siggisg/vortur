@@ -8,6 +8,7 @@ import Popup from './components/Popup';
 import Home from './pages/Home'
 import BeforeAfter from './pages/BeforeAfter'
 import AboutMe from './pages/AboutMe';
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
         onClose={() => setShowPopup(false)}
         url="https://noona.is/tema/experience/15FZOaYlpcwh3VJluSbewHW8"
       />
+      <Analytics />
     </div>
     </>
   )
