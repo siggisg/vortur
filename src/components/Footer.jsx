@@ -12,7 +12,7 @@ function Footer() {
         <footer className="footer">
             <div className='footer-content'>
             <div className='footer-info'>
-            <h2>Vörtur</h2>
+            <h2>Þema snyrti- og fótaaðgerðastofa</h2>
             <a href="tel:+3545552215">+354 555 2215</a>
     
             <a href="mailto:swiftfotamedferd@gmail.com">
