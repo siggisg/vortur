@@ -8,7 +8,7 @@ import Popup from './components/Popup';
 import Home from './pages/Home'
 import BeforeAfter from './pages/BeforeAfter'
 import AboutMe from './pages/AboutMe';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
 
