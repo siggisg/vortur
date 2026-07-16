@@ -51,6 +51,10 @@
 }
 
 .navbar-links {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
   display: flex;
   gap: 2rem;
   list-style: none;

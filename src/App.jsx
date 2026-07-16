@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Popup from './components/Popup';
+import ScrollToTop from './components/ScrollToTop';
 
 import Home from './pages/Home'
 import BeforeAfter from './pages/BeforeAfter'
@@ -16,6 +17,7 @@ function App() {
   return (
     <>
     <div className='app'>
+      <ScrollToTop />
       <Navbar openPopup={() => setShowPopup(true)} />
       <main>
       <Routes>

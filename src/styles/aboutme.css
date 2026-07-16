@@ -15,7 +15,7 @@
 }
 
 .aboutme-photo img {
-    max-width: 450px;
+    max-width: 500px;
     box-shadow: -30px 20px 0 rgba(109, 203, 226, 0.397);
 }
 
@@ -23,14 +23,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: rgb(110, 110, 110);
+    color: var(--text-color);
     font-size: 18px;
     text-align: left;
     width: 50%;
+
+    font-family: var(--text-font);
+
 }
 
 .aboutme-headline {
-    color: rgb(109, 203, 226);
+    color: var(--text-color);
     font-weight: normal;
   font-size: 25px;
   text-align: left;
@@ -39,6 +42,8 @@
 width: 100%;
 margin: 0 auto;
 
+font-family: var(--text-font);
+font-weight: bold;
   }
 
 .aboutme-text p {

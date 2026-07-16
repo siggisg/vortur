@@ -11,7 +11,7 @@ function Home() {
   const [showPopup, setShowPopup] = useState(false);
   return (
     <>
-      <Hero />
+      <Hero openPopup={() => setShowPopup(true)}/>
       <Whatis />
       <Whofor openPopup={() => setShowPopup(true)} />
       <Popup

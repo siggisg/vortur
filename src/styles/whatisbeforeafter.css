@@ -30,7 +30,8 @@ margin: 0 auto;
 }
 
 .whatisbeforeafter-text {
-    color: rgb(110, 110, 110);
+  color: var(--text-color);
+  font-family: var(--text-font);
     font-size: 18px;
     text-align: left;
     max-width: 1000px;
@@ -41,6 +42,7 @@ margin: 0 auto;
   }
   
   .whatisbeforeafter-link {
+    font-family: var(--text-font);
     color: rgb(109, 203, 226);
     cursor: pointer;
   }

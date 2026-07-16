@@ -6,7 +6,7 @@ import Whatisdifferent from '../components/WhatisDifferent'
 
 function Whatis() {
     return (
-        <section className="whatis">
+        <section id='whatis' className="whatis">
           <WhatisIntro/>
           <WhatisSwift/>
           <WhatisBeforeAfter/>

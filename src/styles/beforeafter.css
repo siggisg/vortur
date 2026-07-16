@@ -7,8 +7,9 @@
   }
   
   .beforeafter-headline {
-    color: rgb(109, 203, 226);
-    font-weight: normal;
+    color: var(--text-color);
+    font-family: var(--text-font);
+font-weight: bold;
   font-size: 25px;
   text-align: left;
   padding-bottom: 25px;
@@ -19,8 +20,9 @@ margin: 0 auto;
   }
   
   .beforeafter-text {
-    color: rgb(110, 110, 110);
+    color: var(--text-color);
     font-size: 18px;
+    font-family: var(--text-font);
   text-align: left;
   max-width: 1000px;
 width: 100%;

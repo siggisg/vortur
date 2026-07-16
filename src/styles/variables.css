@@ -1,0 +1,8 @@
+:root {
+    --navbar-text-color: rgb(109, 203, 226);
+    --headline-color: rgb(110, 110, 110);
+    --text-color: rgb(110, 110, 110);
+
+    --navbar-font: 'LilGrotesk', sans-serif;
+    --text-font: "Montserrat", sans-serif;
+}
