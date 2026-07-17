@@ -1,58 +1,51 @@
 .whatisswift {
-  /*height: 300px;*/
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
+
 .whatisswift-headline {
+  width: 100%;
+  max-width: 1000px;
+
+  margin: 0 auto;
+  padding-bottom: 25px;
+
   color: var(--headline-color);
   font-family: var(--text-font);
+  font-size: 25px;
   font-weight: bold;
-font-size: 25px;
-text-align: left;
-padding-bottom: 25px;
-max-width: 1000px;
-width: 100%;
-margin: 0 auto;
-
+  text-align: left;
 }
+
+
+.whatisswift-text-1,
+.whatisswift-text-2 {
+  width: 100%;
+  max-width: 1000px;
+
+  margin: 0 auto;
+
+  color: var(--text-color);
+  font-family: var(--text-font);
+  font-size: 18px;
+  text-align: left;
+}
+
 
 .whatisswift-text-1 {
-  color: var(--text-color);
-  font-family: var(--text-font);
-  font-size: 18px;
-text-align: left;
-max-width: 1000px;
-width: 100%;
-margin: 0 auto;
-
-padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
-.whatisswift-text-2 {
-  color: var(--text-color);
-  font-family: var(--text-font);
-  font-size: 18px;
-text-align: left;
-max-width: 1000px;
-width: 100%;
-margin: 0 auto;
-
-}
 
 @media (max-width: 768px) {
-  .whatisswift-headline {
-    /*max-width: 400px;*/
-    width: 85%;
-  }
-  .whatisswift-text-1 {
-    /*max-width: 400px;*/
-    width: 85%;
-  }
+
+  .whatisswift-headline,
+  .whatisswift-text-1,
   .whatisswift-text-2 {
-    /*max-width: 400px;*/
     width: 85%;
   }
+
 }

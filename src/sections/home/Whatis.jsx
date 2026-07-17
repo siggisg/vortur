@@ -1,45 +1,50 @@
-import '../../styles/home/whatis.css'
-import WhatisIntro from '../../components/home/WhatisIntro'
-import WhatisSwift from '../../components/home/WhatisSwift'
-import WhatisBeforeAfter from '../../components/home/WhatisBeforeAfter'
-import Whatisdifferent from '../../components/home/WhatisDifferent'
-import WhatisWhofor from '../../components/home/WhatisWhofor'
-import Popup from '../../components/ui/Popup'
 import { useState } from 'react';
+
+import Popup from '../../components/ui/Popup';
+import WhatisBeforeAfter from '../../components/home/WhatisBeforeAfter';
+import WhatisDifferent from '../../components/home/WhatisDifferent';
+import WhatisIntro from '../../components/home/WhatisIntro';
+import WhatisSwift from '../../components/home/WhatisSwift';
+import WhatisWhofor from '../../components/home/WhatisWhofor';
+
+import '../../styles/home/whatis.css';
 
 function Whatis() {
   const [showPopup, setShowPopup] = useState(false);
-    return (
-        <section id='whatis' className="whatis">
-          <WhatisIntro/>
-          <WhatisSwift/>
-          <WhatisBeforeAfter/>
-          <Whatisdifferent/>
-          <WhatisWhofor openPopup={() => setShowPopup(true)}/>
-          <Popup
-isOpen={showPopup}
-onClose={() => setShowPopup(false)}
-url="https://noona.is/tema/experience/15FZOaYlpcwh3VJluSbewHW8"
-/>
-        </section>
-      )
-  }
-  
-  export default Whatis
+
+  const openPopup = () => {
+    setShowPopup(true);
+  };
+
+  const closePopup = () => {
+    setShowPopup(false);
+  };
+
+  return (
+    <section
+      id="whatis"
+      className="whatis"
+    >
+      <WhatisIntro />
+
+      <WhatisSwift />
+
+      <WhatisBeforeAfter />
+
+      <WhatisDifferent />
+
+      <WhatisWhofor
+        openPopup={openPopup}
+      />
 
 
+      <Popup
+        isOpen={showPopup}
+        onClose={closePopup}
+        url="https://noona.is/tema/experience/15FZOaYlpcwh3VJluSbewHW8"
+      />
+    </section>
+  );
+}
 
-
-
-  /*function Whatis() {
-    return (
-        <section className="whatis">
-          <WhatisIntro/>
-          <div className="whatis-image">
-            <img src="/swiftvel.webp" alt="Experience preview" />
-          </div>
-        </section>
-      )
-  }
-  
-  export default Whatis*/
+export default Whatis;

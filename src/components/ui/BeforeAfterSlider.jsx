@@ -1,4 +1,5 @@
 import { useState } from 'react';
+
 import '../../styles/ui/beforeafterslider.css';
 
 function BeforeAfterSlider({ beforeImage, afterImage }) {
@@ -14,9 +15,8 @@ function BeforeAfterSlider({ beforeImage, afterImage }) {
 
       <div
         className="after-image-container"
-        //style={{ width: `${sliderPosition}%` }}
         style={{
-          clipPath: `inset(0 ${100 - sliderPosition}% 0 0)`
+          clipPath: `inset(0 ${100 - sliderPosition}% 0 0)`,
         }}
       >
         <img
@@ -28,9 +28,11 @@ function BeforeAfterSlider({ beforeImage, afterImage }) {
 
       <div
         className="slider-line"
-        style={{ left: `${sliderPosition}%` }}
+        style={{
+          left: `${sliderPosition}%`,
+        }}
       >
-        <div className="slider-handle"></div>
+        <div className="slider-handle" />
       </div>
 
       <input
@@ -38,7 +40,7 @@ function BeforeAfterSlider({ beforeImage, afterImage }) {
         min="0"
         max="100"
         value={sliderPosition}
-        onChange={(e) => setSliderPosition(e.target.value)}
+        onChange={(event) => setSliderPosition(event.target.value)}
         className="slider"
       />
     </div>

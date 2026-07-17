@@ -1,74 +1,82 @@
 .whatisdifferent {
-    /*height: 300px;*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 50px;
-  }
-  
-  .whatisdifferent-headline {
-    font-family: var(--text-font);
-    font-weight: bold;
-    color: var(--headline-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding-bottom: 50px;
+}
+
+
+.whatisdifferent-headline {
+  width: 100%;
+  max-width: 1000px;
+
+  margin: 0 auto;
+  padding-bottom: 25px;
+
+  color: var(--headline-color);
+  font-family: var(--text-font);
   font-size: 25px;
+  font-weight: bold;
   text-align: left;
-  padding-bottom: 25px;
-  max-width: 1000px;
-width: 100%;
-margin: 0 auto;
+}
 
-  }
-  
-  .whatisdifferent-text-1 {
-    font-family: var(--text-font);
-    color: var(--text-color);
-    font-size: 18px;
+
+.whatisdifferent-text-1 {
+  width: 100%;
+  max-width: 1000px;
+
+  margin: 0 auto;
+  padding-bottom: 25px;
+
+  color: var(--text-color);
+  font-family: var(--text-font);
+  font-size: 18px;
   text-align: left;
-  max-width: 1000px;
-width: 100%;
-margin: 0 auto;
+}
 
-  padding-bottom: 25px;
-  }
-  
-  .whatisdifferent-list {
-    font-family: var(--text-font);
-    color: var(--text-color);
-    font-size: 16px;
-  text-align: left;font-family: var(--text-font);
+
+.whatisdifferent-list {
+  width: 100%;
   max-width: 1000px;
-width: 100%;
-margin: 0 auto;
+
+  margin: 0 auto;
+  padding: 0;
+
+  color: var(--text-color);
+  font-family: var(--text-font);
+  font-size: 16px;
+  text-align: left;
 
   list-style: none;
-    padding: 0;
-  }
-  
-  .whatisdifferent-list li {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 12px;
+}
+
+
+.whatisdifferent-list li {
+  display: flex;
+  align-items: flex-start;
+
+  margin-bottom: 12px;
+}
+
+
+.whatisdifferent-list li::before {
+  content: "✓";
+
+  margin-right: 10px;
+  flex-shrink: 0;
+
+  color: rgb(149, 255, 149);
+}
+
+
+@media (max-width: 768px) {
+
+  .whatisdifferent-headline,
+  .whatisdifferent-text-1,
+  .whatisdifferent-list {
+    width: 85%;
   }
 
-  .whatisdifferent-list li::before {
-    color: rgb(149, 255, 149);
-    content: "✓";
-    margin-right: 10px;
-    flex-shrink: 0;
-  }
-
-  @media (max-width: 768px) {
-    .whatisdifferent-headline {
-      /*max-width: 400px;*/
-    width: 85%;
-    }
-    .whatisdifferent-text-1 {
-      /*max-width: 400px;*/
-    width: 85%;
-    }
-    .whatisdifferent-list {
-      /*max-width: 400px;*/
-    width: 85%;
-    }
-  }
+}

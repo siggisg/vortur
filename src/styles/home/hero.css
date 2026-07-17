@@ -1,31 +1,35 @@
 .hero {
   position: relative;
   overflow: hidden;
+
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Image */
 
-.hero img {
-  object-fit: cover;
-  width: 100%;
-  position: relative;
-  z-index: -2;
-}
+/* Image */
 
 .hero-img-fade {
   position: relative;
 }
 
-.hero-img-fade img {
+.hero img {
   width: 100%;
+  object-fit: cover;
+
+  position: relative;
+  z-index: -2;
+}
+
+.hero-img-fade img {
   display: block;
+  width: 100%;
 }
 
 .hero-img-fade::after {
   content: "";
+
   position: absolute;
   top: 0;
   left: 0;
@@ -50,29 +54,33 @@
   flex-direction: column;
   align-items: center;
 
+  width: 100%;
+  max-width: 1500px;
+
+  margin: 0 auto;
+  padding: 50px;
+
+  color: var(--text-color);
   font-family: var(--text-font);
   font-weight: 400;
   font-style: normal;
-
-  padding: 50px;
-  max-width: 1500px;
-  width: 100%;
-  margin: 0 auto;
 }
 
 .hero-text h1 {
-  font-size: 40px;
-  color: var(--text-color);
   padding-bottom: 20px;
+
+  color: var(--text-color);
+  font-size: 40px;
 }
 
 .hero-text ul {
-  max-width: 1000px;
   width: 100%;
+  max-width: 1000px;
+
   margin: 0 auto;
+  padding: 0;
 
   list-style: none;
-  padding: 0;
 }
 
 .hero-text li {
@@ -80,10 +88,10 @@
   align-items: flex-start;
   gap: 12px;
 
-  font-size: 34px;
-  color: var(--text-color);
-
   padding: 10px;
+
+  color: var(--text-color);
+  font-size: 34px;
 }
 
 .hero-text li::before {
@@ -92,25 +100,27 @@
   width: 20px;
   height: 2px;
 
-  background: var(--text-color);
-
-  margin-top: 0.7em;
   flex-shrink: 0;
+  margin-top: 0.7em;
+
+  background: var(--text-color);
 }
 
 
 /* Buttons */
 
 .hero-button-container {
-  padding-top: 10px;
-
   display: flex;
   justify-content: space-evenly;
+  gap: 20px;
+
+  width: 100%;
+  padding-top: 10px;
 }
 
 .hero-book-button,
 .hero-more-button {
-  font-family: var(--text-font);
+  width: 220px;
 
   margin-top: 10px;
   padding: 12px 28px;
@@ -120,10 +130,9 @@
   background-color: rgb(159, 195, 204);
   color: white;
 
+  font-family: var(--text-font);
   font-size: 1.3rem;
   font-weight: 600;
-
-  width: 220px;
 
   cursor: pointer;
   transition: 0.3s ease;
@@ -144,20 +153,20 @@
 @media (max-width: 768px) {
 
   .hero-text {
-    padding: 0;
     width: 85%;
+    padding: 0;
   }
 
   .hero-text h1 {
     font-size: 22px;
   }
 
-  .hero ul {
+  .hero-text ul {
     width: fit-content;
     max-width: 85%;
   }
 
-  .hero li {
+  .hero-text li {
     font-size: 18px;
   }
 
@@ -170,13 +179,11 @@
     padding-bottom: 20px;
   }
 
-
   .hero-book-button,
   .hero-more-button {
-    font-size: 1rem;
     width: 150px;
+    font-size: 1rem;
   }
-
 
   .hero-img-fade::after {
     height: 150px;

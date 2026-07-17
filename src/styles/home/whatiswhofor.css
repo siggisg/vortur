@@ -1,98 +1,108 @@
 .whatiswhofor {
-  /*height: 300px;*/
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   padding-bottom: 50px;
-  }
-
-.whatiswhofor-headline {
-  color: var(--headline-color);
-  font-family: var(--text-font);
-  font-weight: bold;
-font-size: 25px;
-text-align: left;
-padding-bottom: 25px;
-max-width: 1000px;
-width: 100%;
-margin: 0 auto;
-
 }
 
+
+.whatiswhofor-headline {
+  width: 100%;
+  max-width: 1000px;
+
+  margin: 0 auto;
+  padding-bottom: 25px;
+
+  color: var(--headline-color);
+  font-family: var(--text-font);
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+
+
 .whatiswhofor-text {
+  width: 100%;
+  max-width: 1000px;
+
+  margin: 0 auto;
+  padding-bottom: 25px;
+
   color: var(--text-color);
   font-family: var(--text-font);
   font-size: 18px;
-text-align: left;
-max-width: 1000px;
-width: 100%;
-margin: 0 auto;
-
-padding-bottom: 25px;
+  text-align: left;
 }
 
+
 .whatiswhofor-list {
+  width: 100%;
+  max-width: 1000px;
+
+  margin: 0 auto;
+  padding: 0 0 25px;
+
   color: var(--text-color);
   font-family: var(--text-font);
   font-size: 16px;
-text-align: left;
-max-width: 1000px;
-width: 100%;
-margin: 0 auto;
+  text-align: left;
 
-list-style: none;
-  padding: 0;
-  padding-bottom: 25px;
+  list-style: none;
 }
+
 
 .whatiswhofor-list li {
   display: flex;
   align-items: flex-start;
+
   margin-bottom: 12px;
 }
 
+
 .whatiswhofor-list li::before {
-  color: rgb(255, 200, 200);
   content: "x";
+
   margin-right: 10px;
   flex-shrink: 0;
+
+  color: rgb(255, 200, 200);
 }
+
 
 .whatiswhofor-button {
+  width: 170px;
+
+  margin-top: 20px;
+  padding: 12px 28px;
+
+  border: none;
+
+  background-color: rgb(159, 195, 204);
+  color: white;
+
   font-family: var(--text-font);
-    margin-top: 20px;
-    padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
 
-    border: none;
-
-    background-color: rgb(159, 195, 204);
-    color: white;
-
-    font-size: 1rem;
-    font-weight: 600;
-    width: 170px;
-
-    cursor: pointer;
-    transition: 0.3s ease;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
+
 
 .whatiswhofor-button:hover {
-    transform: scale(1.05);
-    opacity: 0.9;
+  transform: scale(1.05);
+  opacity: 0.9;
 }
 
+
 @media (max-width: 768px) {
-  .whatiswhofor-headline {
-    /*max-width: 400px;*/
-    width: 85%;
-  }
-  .whatiswhofor-text {
-    /*max-width: 400px;*/
-    width: 85%;
-  }
+
+  .whatiswhofor-headline,
+  .whatiswhofor-text,
   .whatiswhofor-list {
-    /*max-width: 400px;*/
     width: 85%;
   }
+
 }
