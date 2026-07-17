@@ -1,4 +1,4 @@
-import '../styles/whatisintro.css'
+import '../../styles/home/whatisintro.css'
 
 function whatisintro() {
     return (

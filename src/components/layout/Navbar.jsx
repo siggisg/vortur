@@ -1,4 +1,4 @@
-import '../styles/navbar.css'
+import '../../styles/layout/navbar.css'
 import { FaFacebookF, FaInstagram, FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import { useState } from "react";

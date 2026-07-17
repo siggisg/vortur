@@ -1,4 +1,4 @@
-import '../styles/whatisbeforeafter.css'
+import '../../styles/home/whatisbeforeafter.css'
 import { Link } from 'react-router-dom';
 
 

@@ -1,4 +1,4 @@
-import '../styles/whatisswift.css'
+import '../../styles/home/whatisswift.css'
 
 function whatisswift() {
     return (

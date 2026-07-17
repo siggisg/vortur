@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../styles/beforeafterslider.css';
+import '../../styles/ui/beforeafterslider.css';
 
 function BeforeAfterSlider({ beforeImage, afterImage }) {
   const [sliderPosition, setSliderPosition] = useState(50);

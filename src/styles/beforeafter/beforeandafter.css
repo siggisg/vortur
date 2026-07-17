@@ -1,4 +1,4 @@
-.beforeafter {
+.beforeandafter {
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
     justify-content: center;
   }
   
-  .beforeafter-headline {
+  .beforeandafter-headline {
     color: var(--text-color);
     font-family: var(--text-font);
 font-weight: bold;
@@ -19,7 +19,7 @@ margin: 0 auto;
 
   }
   
-  .beforeafter-text {
+  .beforeandafter-text {
     color: var(--text-color);
     font-size: 18px;
     font-family: var(--text-font);
@@ -31,7 +31,7 @@ margin: 0 auto;
   padding-bottom: 25px;
   }
 
-  .beforeafter-grid {
+  .beforeandafter-grid {
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -41,15 +41,15 @@ margin: 0 auto;
 
   @media (max-width: 768px) {
 
-    .beforeafter-grid {
+    .beforeandafter-grid {
       align-items: center;
     }
-    .beforeafter-headline {
+    .beforeandafter-headline {
       /*max-width: 400px;*/
       width: 85%;
     }
 
-    .beforeafter-text {
+    .beforeandafter-text {
       /*max-width: 400px;*/
       width: 85%;
     }

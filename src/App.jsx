@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom'
 import { useState } from 'react';
 
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Popup from './components/Popup';
-import ScrollToTop from './components/ScrollToTop';
+import Navbar from './components/layout/Navbar'
+import Footer from './components/layout/Footer'
+import Popup from './components/ui/Popup';
+import ScrollToTop from './components/layout/ScrollToTop';
 
 import Home from './pages/Home'
 import BeforeAfter from './pages/BeforeAfter'

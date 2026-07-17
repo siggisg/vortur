@@ -1,4 +1,4 @@
-import '../styles/whatisdifferent.css'
+import '../../styles/home/whatisdifferent.css'
 
 function whatisdifferent() {
     return (

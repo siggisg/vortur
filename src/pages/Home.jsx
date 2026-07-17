@@ -1,9 +1,9 @@
-import Navbar from '../components/Navbar'
-import Hero from '../sections/Hero'
-import Whatis from '../sections/Whatis'
-import Whofor from '../sections/Whofor'
-import Footer from '../components/Footer'
-import Popup from '../components/Popup'
+import Navbar from '../components/layout/Navbar'
+import Hero from '../sections/home/Hero'
+import Whatis from '../sections/home/Whatis'
+/*import Whofor from '../components/WhatisWhofor'*/
+import Footer from '../components/layout/Footer'
+import Popup from '../components/ui/Popup'
 import { useState } from 'react';
 
 function Home() {
@@ -13,7 +13,6 @@ function Home() {
     <>
       <Hero openPopup={() => setShowPopup(true)}/>
       <Whatis />
-      <Whofor openPopup={() => setShowPopup(true)} />
       <Popup
 isOpen={showPopup}
 onClose={() => setShowPopup(false)}
@@ -27,3 +26,6 @@ export default Home
 
 
 
+/*
+<Whatis />
+      <Whofor openPopup={() => setShowPopup(true)} />*/

@@ -1,4 +1,4 @@
-import '../styles/popup.css'
+import '../../styles/ui/popup.css'
 
 function Popup({ isOpen, onClose, url }) {
     if (!isOpen) return null;

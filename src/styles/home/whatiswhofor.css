@@ -1,4 +1,4 @@
-.whofor {
+.whatiswhofor {
   /*height: 300px;*/
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@
   padding-bottom: 50px;
   }
 
-.whofor-headline {
+.whatiswhofor-headline {
   color: var(--headline-color);
   font-family: var(--text-font);
   font-weight: bold;
@@ -20,7 +20,7 @@ margin: 0 auto;
 
 }
 
-.whofor-text {
+.whatiswhofor-text {
   color: var(--text-color);
   font-family: var(--text-font);
   font-size: 18px;
@@ -32,7 +32,7 @@ margin: 0 auto;
 padding-bottom: 25px;
 }
 
-.whofor-list {
+.whatiswhofor-list {
   color: var(--text-color);
   font-family: var(--text-font);
   font-size: 16px;
@@ -46,20 +46,20 @@ list-style: none;
   padding-bottom: 25px;
 }
 
-.whofor-list li {
+.whatiswhofor-list li {
   display: flex;
   align-items: flex-start;
   margin-bottom: 12px;
 }
 
-.whofor-list li::before {
+.whatiswhofor-list li::before {
   color: rgb(255, 200, 200);
   content: "x";
   margin-right: 10px;
   flex-shrink: 0;
 }
 
-.whofor-button {
+.whatiswhofor-button {
   font-family: var(--text-font);
     margin-top: 20px;
     padding: 12px 28px;
@@ -77,21 +77,21 @@ list-style: none;
     transition: 0.3s ease;
 }
 
-.whofor-button:hover {
+.whatiswhofor-button:hover {
     transform: scale(1.05);
     opacity: 0.9;
 }
 
 @media (max-width: 768px) {
-  .whofor-headline {
+  .whatiswhofor-headline {
     /*max-width: 400px;*/
     width: 85%;
   }
-  .whofor-text {
+  .whatiswhofor-text {
     /*max-width: 400px;*/
     width: 85%;
   }
-  .whofor-list {
+  .whatiswhofor-list {
     /*max-width: 400px;*/
     width: 85%;
   }

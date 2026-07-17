@@ -1,4 +1,4 @@
-import '../styles/hero.css'
+import '../../styles/home/hero.css'
 
 function Hero({ openPopup }) {
     return (
