@@ -72,6 +72,26 @@
   list-style: none;
 }
 
+.navbar-links button {
+  display: block;
+  margin-left: auto;
+  
+  background: none;
+  border: none;
+  padding: 0;
+  
+  color: rgb(110, 110, 110);
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: inherit;
+  
+  cursor: pointer;
+  
+  appearance: none;
+  -webkit-appearance: none;
+}
+
 
 .navbar-socials {
   display: flex;
@@ -204,15 +224,22 @@
 
   .book-btn-mobile {
     display: block;
-
     margin-left: auto;
-
-    color: inherit;
-
-    font-weight: 600;
-
+  
+    background: none;
+    border: none;
+    padding: 0;
+  
+    color: rgb(110, 110, 110);
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: inherit;
+  
     cursor: pointer;
-    text-decoration: none;
+  
+    appearance: none;
+    -webkit-appearance: none;
   }
 
 

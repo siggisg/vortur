@@ -51,9 +51,9 @@ function Navbar({ openPopup }) {
           </li>
 
           <li>
-            <a onClick={openPopup}>
+            <button onClick={openPopup}>
               Bóka núna
-            </a>
+            </button>
           </li>
         </ul>
 
@@ -77,12 +77,12 @@ function Navbar({ openPopup }) {
         </div>
 
 
-        <a
+        <button
           className="book-btn-mobile"
           onClick={openPopup}
         >
           Bóka
-        </a>
+        </button>
 
       </nav>
 
