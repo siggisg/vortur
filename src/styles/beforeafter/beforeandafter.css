@@ -45,6 +45,36 @@
   padding: 2rem 0;
 }
 
+.beforeandafter-headline {
+  animation: headlineFade 1s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes headlineFade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.beforeandafter-text {
+  animation: textFade 1s ease-out 0.2s forwards;
+  opacity: 0;
+}
+
+@keyframes textFade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 
 @media (max-width: 768px) {
   .beforeandafter-grid {

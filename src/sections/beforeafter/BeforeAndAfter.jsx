@@ -1,4 +1,5 @@
 import BeforeAfterSlider from '../../components/ui/BeforeAfterSlider';
+import ScrollReveal from '../../components/ui/ScrollReveal';
 
 import '../../styles/beforeafter/beforeandafter.css';
 
@@ -39,11 +40,13 @@ function BeforeAndAfter() {
 
       <div className="beforeandafter-grid">
         {images.map((image, index) => (
+          <ScrollReveal>
           <BeforeAfterSlider
             key={index}
             beforeImage={image.before}
             afterImage={image.after}
           />
+          </ScrollReveal>
         ))}
       </div>
     </section>

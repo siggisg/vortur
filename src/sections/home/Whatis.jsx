@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import Popup from '../../components/ui/Popup';
+import ScrollReveal from '../../components/ui/ScrollReveal';
 import WhatisBeforeAfter from '../../components/home/WhatisBeforeAfter';
 import WhatisDifferent from '../../components/home/WhatisDifferent';
 import WhatisIntro from '../../components/home/WhatisIntro';
@@ -25,18 +26,27 @@ function Whatis() {
       id="whatis"
       className="whatis"
     >
-      <WhatisIntro />
+      <ScrollReveal>
+        <WhatisIntro />
+      </ScrollReveal>
 
-      <WhatisSwift />
+      <ScrollReveal>
+        <WhatisSwift />
+      </ScrollReveal>
+      
+      <ScrollReveal>
+        <WhatisBeforeAfter />
+      </ScrollReveal>
 
-      <WhatisBeforeAfter />
+      <ScrollReveal>
+        <WhatisDifferent />
+      </ScrollReveal>
 
-      <WhatisDifferent />
-
-      <WhatisWhofor
-        openPopup={openPopup}
-      />
-
+      <ScrollReveal>
+        <WhatisWhofor
+          openPopup={openPopup}
+        />
+      </ScrollReveal>
 
       <Popup
         isOpen={showPopup}

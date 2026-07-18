@@ -9,8 +9,8 @@ function Popup({ isOpen, onClose, url }) {
   };
 
   return (
-    <div className="modal-overlay">
-      <div className="modal">
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="modal" onClick={(e) => e.stopPropagation()}>
 
         <h2 className="popup-beware">
           Athugið

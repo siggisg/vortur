@@ -56,6 +56,51 @@
   .about-text p {
     max-width: 400px;
   }
+
+  .about-headline {
+    animation: headlineFade 1s ease-out forwards;
+    opacity: 0;
+  }
+  
+  @keyframes headlineFade {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+  .about-text p {
+    animation: textFade 1s ease-out 0.2s forwards;
+    opacity: 0;
+  }
+  
+  @keyframes textFade {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+  .about-photo {
+    animation: photoFade 1s ease-out 0.1s forwards;
+    opacity: 0;
+  }
+  
+  @keyframes photoFade {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
   
   
   @media (max-width: 768px) {
