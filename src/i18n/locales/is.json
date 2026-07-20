@@ -1,0 +1,87 @@
+{
+    "seo": {
+        "title": "Vörtur | SWIFT vörtumeðferð",
+        "description": "SWIFT vörtumeðferð í Hafnarfirði. Fljótleg og þægileg meðferð við vörtum án skurðaðgerðar."
+    },
+
+    "navbar": {
+        "link1": "Heim",
+        "link2": "Fyrir og Eftir",
+        "link3": "Um mig",
+        "bookDesktop": "Bóka núna",
+        "bookMobile": "Bóka"
+    },
+
+    "hero": {
+        "headline": "SWIFT meðferðin fjarlægir vörtur á fljótlegan og þægilegan hátt",
+        "list1": "Þrjár til fjórar meðferðir og hvert skipti tekur aðeins nokkrar mínútur",
+        "list2": "Engin skurðaðgerð",
+        "list3": "Flestir geta haldið áfram sínum degi strax eftir meðferð",
+        "book": "Bóka núna",
+        "more": "Lesa meira"
+    },
+
+    "whatisIntro": {
+        "headline": "Hvað gerir SWIFT?",
+        "text1": "SWIFT er vél sem er notuð til að fjarlægja vörtur á þægilegri máta. Meðferðin er fljótleg, tekur aðeins nokkrar mínútur og krefst engrar skurðaðgerðar né batatíma. Þú getur því haldið áfram þínu daglega lífi strax að meðferð lokinni. Oftast þarf 3–4 meðferðir með nokkurra vikna millibili til að ná bestum árangri.",
+        "text2": "Hentar sérstaklega vel fyrir iljarvörtur og vörtur sem hafa reynst erfiðar viðureignar."
+    },
+    "whatisSwift": {
+        "headline": "Hvað er SWIFT?",
+        "text1": "SWIFT vörtumeðferð beitir staðbundinni örbylgjumeðferð í gegnum yfirborð húðarinnar niður á 2–3 mm dýpi. Þetta veldur því að vatnssameindir innan vörtunnar titra og mynda núning. Meðferðin örvar ónæmissvar líkamans, þannig að hann þekkir vörturnar og byrjar að losa sig við þær sjálfur.",
+        "text2": "Vartan getur legið nokkra millimetra undir yfirborði húðarinnar, sem gerir hana erfiða viðfangs með hefðbundnum meðferðum. SWIFT-vörtumeðferðin beinir nákvæmum og stýrðum orkuskammti að vörtunni. Þegar örbylgjurnar berast inn í vörtuna byrja vatnssameindir að rekast hver á aðra og mynda staðbundinn hita, sem örvar líkamann til að þekkja og ráðast á veiruna. Meðferðinni lýkur á örfáum sekúndum og þá hefst gróandaferlið."
+    },
+    "whatisBeforeAfter": {
+        "text": "Hér má sjá niðurstöður eftir þrjú skipti með SWIFT meðferð, til að sjá fleiri fyrir og eftir myndir",
+        "link": "smellið hér."
+    },
+    "whatisDifferent": {
+        "headline": "Hvað gerir SWIFT vörtumeðferð frábrugðna öðrum meðferðum?",
+        "text": "SWIFT hefur verið frábær viðbót við vörtumeðferð af mörgum ástæðum:",
+        "list1": "Meðferðartíminn er stuttur og krefst engrar hvíldar, sem þýðir að þú getur farið beint aftur í íþróttir eða aðra virkni strax eftir meðferðina.",
+        "list2": "Enginn sársauki eftir meðferðina en doði og hiti getur komið á svæðið sem getur verið í einhverja daga eftir.",
+        "list3": "Minni hætta á sýkingu og öramyndun.",
+        "list4": "Enginn skaði verður á nærliggjandi húð og vefjum.",
+        "list5": "Engar umbúðir eru nauðsynlegar.",
+        "list6": "Enginn reykur eða bruni."
+    },
+    "whatisWhofor": {
+        "headline": "Fyrir hverja er Swift?",
+        "text": "Swift vörtumeðferð er fyrir alla nema eftirfarandi:",
+        "list1": "Þungaðar konur.",
+        "list2": "Fólk með gangráð eða önnur ígrædd rafbúnaðartæki.",
+        "list3": "Svæði með grun um illkynja húðbreytingar.",
+        "list4": "Sykursjúka.",
+        "list5": "Fólk með mjög skert ónæmiskerfi (metið af sérfræðingi).",
+        "book": "Bóka núna"
+    },
+
+    "beforeAfter": {
+        "headline": "Fyrir og Eftir",
+        "text": "Hér má sjá nokkrar myndir sem hafa verið teknar fyrir og eftir heillar SWIFT meðferðar. Athugið að hver meðferð er venjulega 3 - 4 skipti."
+    },
+
+    "about": {
+        "headline": "Um mig",
+        "text": [
+            "Eftir að hafa starfað sem löggiltur fótaaðgerðafræðingur í yfir áratug hef ég séð hversu erfitt getur verið fyrir fólk að fá árangursríka meðferð við vörtum.",
+
+            "Fótaaðgerðafræðingar hafa takmarkaðar heimildir til að nota sterk meðferðarefni og biðtími hjá húðlæknum getur oft verið 9–12 mánuðir. Fyrir marga er það langur tími að bíða, sérstaklega þegar vörtur valda óþægindum eða verkjum.",
+
+            "Í leit að betri lausn ræddi ég við erlenda samstarfsaðila sem kynntu mér Swift örbylgjutæknina. Klínískar rannsóknir hafa sýnt allt að 85% árangur við meðferð á vörtum og eftir að hafa kynnt mér tæknina betur vissi ég að þessi meðferð ætti erindi til Íslands.",
+
+            "Einn helsti kostur Swift-meðferðarinnar er að hún vinnur með náttúrulegum vörnum líkamans. Ólíkt mörgum hefðbundnum meðferðum er markmiðið ekki að eyða vörtunni beint heldur að virkja ónæmiskerfið til að bregðast við veirunni sem veldur henni svo líkaminn þekki hana og geti losað sig við hana sjálfur.",
+
+            "Swift-meðferð er ekki jafn ágeng og margar aðrar meðferðir, svo sem frysting, sýrumeðferð eða sprautumeðferðir, sem geta valdið meiri óþægindum og sársauka.\nSwift vinnur með líkamanum – ekki gegn honum.",
+
+            "Ester Ósk\nLöggiltur fótaaðgerðafræðingur"
+        ]
+    },
+
+    "popup": {
+        "beware": "Athugið",
+        "text1": "Oftast þarf 3-4 meðferðir og borgað er fyrir hverja meðferð fyrir sig hverju sinni.",
+        "text2": "Fólk sem notar heyrnatæki þarf að fjarlægja þau fyrir meðferðina.",
+        "text3": "Swift vörtumeðferð er fyrir alla nema eftirfarandi:"
+    }
+}

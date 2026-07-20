@@ -1,7 +1,11 @@
+import { useTranslation } from 'react-i18next'
 import '../../styles/ui/popup.css';
 
 function Popup({ isOpen, onClose, url }) {
+
   if (!isOpen) return null;
+
+  const { t } = useTranslation()
 
   const handleContinue = () => {
     window.open(url, '_blank');
@@ -13,42 +17,33 @@ function Popup({ isOpen, onClose, url }) {
       <div className="modal" onClick={(e) => e.stopPropagation()}>
 
         <h2 className="popup-beware">
-          Athugið
+          {t('popup.beware')}
         </h2>
 
         <p className="popup-beware-text">
-          Oftast þarf 3-4 meðferðir og borgað er fyrir hverja meðferð fyrir sig
-          hverju sinni.
+          {t('popup.text1')}
         </p>
 
         <p className="popup-beware-text">
-          Fólk sem notar heyrnatæki þarf að fjarlægja þau fyrir meðferðina.
+          {t('popup.text2')}
         </p>
 
 
         <div className="popup-whofor">
           <p className="popup-whofor-text">
-            Swift vörtumeðferð er fyrir alla nema eftirfarandi:
+            {t('popup.text3')}
           </p>
 
           <ul className="popup-whofor-list">
-            <li>Þungaðar konur.</li>
+            <li>{t('whatisWhofor.list1')}</li>
 
-            <li>
-              Fólk með gangráð eða önnur ígrædd rafbúnaðartæki.
-            </li>
+            <li>{t('whatisWhofor.list2')}</li>
 
-            <li>
-              Svæði með grun um illkynja húðbreytingar.
-            </li>
+            <li>{t('whatisWhofor.list3')}</li>
 
-            <li>
-              Sykursjúka.
-            </li>
+            <li>{t('whatisWhofor.list4')}</li>
 
-            <li>
-              Fólk með mjög skert ónæmiskerfi (metið af sérfræðingi).
-            </li>
+            <li>{t('whatisWhofor.list5')}</li>
           </ul>
         </div>
 

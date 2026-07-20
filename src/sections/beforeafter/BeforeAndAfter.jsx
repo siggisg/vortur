@@ -1,9 +1,12 @@
 import BeforeAfterSlider from '../../components/ui/BeforeAfterSlider';
 import ScrollReveal from '../../components/ui/ScrollReveal';
+import { useTranslation } from 'react-i18next'
 
 import '../../styles/beforeafter/beforeandafter.css';
 
 function BeforeAndAfter() {
+
+  const { t } = useTranslation()
   const images = [
     {
       before: '/1 fyrir.jpg',
@@ -27,25 +30,22 @@ function BeforeAndAfter() {
     <section>
       <div className="beforeandafter">
         <h1 className="beforeandafter-headline">
-          Fyrir og Eftir
+          {t('beforeAfter.headline')}
         </h1>
 
         <p className="beforeandafter-text">
-          Hér má sjá nokkrar myndir sem hafa verið teknar fyrir og eftir
-          heillar SWIFT meðferðar. Athugið að hver meðferð er venjulega
-          3 - 4 skipti.
+          {t('beforeAfter.text')}
         </p>
       </div>
 
 
       <div className="beforeandafter-grid">
         {images.map((image, index) => (
-          <ScrollReveal>
-          <BeforeAfterSlider
-            key={index}
-            beforeImage={image.before}
-            afterImage={image.after}
-          />
+          <ScrollReveal key={index}>
+            <BeforeAfterSlider
+              beforeImage={image.before}
+              afterImage={image.after}
+            />
           </ScrollReveal>
         ))}
       </div>

@@ -1,39 +1,37 @@
 import '../../styles/home/whatiswhofor.css';
+import { useTranslation } from 'react-i18next'
 
 function WhatisWhofor({ openPopup }) {
+
+  const { t } = useTranslation()
+
   return (
     <section className="whatiswhofor">
       <h1 className="whatiswhofor-headline">
-        Fyrir hverja er Swift?
+        {t('whatisWhofor.headline')}
       </h1>
 
       <p className="whatiswhofor-text">
-        Swift vörtumeðferð er fyrir alla nema eftirfarandi:
+        {t('whatisWhofor.text')}
       </p>
 
       <ul className="whatiswhofor-list">
-        <li>Þungaðar konur.</li>
+        <li>{t('whatisWhofor.list1')}</li>
 
-        <li>
-          Fólk með gangráð eða önnur ígrædd rafbúnaðartæki.
-        </li>
+        <li>{t('whatisWhofor.list2')}</li>
 
-        <li>
-          Svæði með grun um illkynja húðbreytingar.
-        </li>
+        <li>{t('whatisWhofor.list3')}</li>
 
-        <li>Sykursjúka.</li>
+        <li>{t('whatisWhofor.list4')}</li>
 
-        <li>
-          Fólk með mjög skert ónæmiskerfi (metið af sérfræðingi).
-        </li>
+        <li>{t('whatisWhofor.list5')}</li>
       </ul>
 
       <button
         className="whatiswhofor-button"
         onClick={openPopup}
       >
-        Bóka núna
+        {t('whatisWhofor.book')}
       </button>
     </section>
   );

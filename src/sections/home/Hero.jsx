@@ -1,6 +1,10 @@
 import '../../styles/home/hero.css';
+import { useTranslation } from 'react-i18next'
 
 function Hero({ openPopup }) {
+
+  const { t } = useTranslation()
+
   const scrollToInfo = () => {
     document.getElementById('whatis')?.scrollIntoView({
       behavior: 'smooth',
@@ -12,22 +16,16 @@ function Hero({ openPopup }) {
 
       <div className="hero-text">
         <h1>
-          SWIFT meðferðin fjarlægir vörtur á fljótlegan og þægilegan hátt
+          {t('hero.headline')}
         </h1>
 
 
         <ul className="hero-list">
-          <li>
-            Þrjár til fjórar meðferðir og hvert skipti tekur aðeins nokkrar mínútur
-          </li>
+          <li>{t('hero.list1')}</li>
 
-          <li>
-            Engin skurðaðgerð
-          </li>
+          <li>{t('hero.list2')}</li>
 
-          <li>
-            Flestir geta haldið áfram sínum degi strax eftir meðferð
-          </li>
+          <li>{t('hero.list3')}</li>
         </ul>
 
 
@@ -36,14 +34,14 @@ function Hero({ openPopup }) {
             className="hero-book-button"
             onClick={openPopup}
           >
-            Bóka núna
+            {t('hero.book')}
           </button>
 
           <button
             className="hero-more-button"
             onClick={scrollToInfo}
           >
-            Lesa meira
+            {t('hero.more')}
           </button>
         </div>
 

@@ -1,0 +1,87 @@
+{
+    "seo": {
+        "title": "Vörtur | SWIFT wart treatment",
+        "description": "SWIFT wart treatment in Hafnarfjörður, Iceland. A quick and comfortable treatment for warts without surgery."
+    },
+
+    "navbar": {
+        "link1": "Home",
+        "link2": "Before and After",
+        "link3": "About me",
+        "bookDesktop": "Book now",
+        "bookMobile": "Book"
+    },
+
+    "hero": {
+        "headline": "SWIFT treatment removes warts in a quick and comfortable way",
+        "list1": "Three to four treatments are usually needed, and each session takes only a few minutes.",
+        "list2": "Requires no surgery.",
+        "list3": "Most people can return to their normal daily activities immediately after treatment.",
+        "book": "Book now",
+        "more": "Read more"
+    },
+
+    "whatisIntro": {
+        "headline": "What does SWIFT do?",
+        "text1": "SWIFT is a device used to remove warts in a more comfortable and convenient way. The treatment is quick, taking only a few minutes, and requires no surgery or recovery time. You can return to your normal daily activities immediately after the procedure. For the best results, most people require 3–4 treatments spaced several weeks apart.",
+        "text2": "It is particularly well suited for plantar warts and warts that have proven difficult to treat."
+    },
+    "whatisSwift": {
+        "headline": "What is SWIFT?",
+        "text1": "SWIFT wart treatment uses localized microwave therapy delivered through the surface of the skin to a depth of 2–3 mm. This causes water molecules within the wart to vibrate and generate friction. The treatment stimulates the body’s immune response, allowing it to recognize the warts and begin eliminating them naturally.",
+        "text2": "The wart can be located several millimetres beneath the surface of the skin, making it difficult to treat with conventional methods. SWIFT wart treatment delivers a precise and controlled dose of energy directly to the wart. As the microwaves penetrate the wart, water molecules begin to collide and generate localized heat, stimulating the body to recognize and attack the virus. The treatment is completed within just a few seconds, after which the healing process begins."
+    },
+    "whatisBeforeAfter": {
+        "text": "Here you can see the results after three SWIFT treatments. To view more before-and-after photos",
+        "link": "click here."
+    },
+    "whatisDifferent": {
+        "headline": "What makes SWIFT wart treatment different from other treatments?",
+        "text": "SWIFT has been a great addition to wart treatment for many reasons:",
+        "list1": "The treatment time is short and requires no downtime, meaning you can return straight to sports or other activities immediately after the treatment.",
+        "list2": "There is no pain after the treatment, but numbness and warmth may occur in the treated area and can last for a few days afterwards.",
+        "list3": "Lower risk of infection and scarring.",
+        "list4": "No damage is caused to the surrounding skin and tissue.",
+        "list5": "No bandages or dressings are needed.",
+        "list6": "No smoke or burning sensation."
+    },
+    "whatisWhofor": {
+        "headline": "Who is SWIFT suitable for?",
+        "text": "SWIFT wart treatment is suitable for most people, with the following exceptions:",
+        "list1": "Pregnant women.",
+        "list2": "People with pacemakers or other implanted electronic devices.",
+        "list3": "Areas with suspected malignant skin changes.",
+        "list4": "People with diabetes.",
+        "list5": "People with a severely compromised immune system (as assessed by a specialist).",
+        "book": "Book now"
+    },
+
+    "beforeAfter": {
+        "headline": "Before and After",
+        "text": "Here you can see some before-and-after photos taken throughout a complete course of SWIFT treatment. Please note that a full course of treatment typically consists of 3–4 sessions."
+    },
+
+    "about": {
+        "headline": "About me",
+        "text": [
+            "After working as a licensed podiatrist for over a decade, I have seen how difficult it can be for people to find an effective treatment for warts.",
+
+            "Podiatrists have limited authorization to use strong treatment agents, and waiting times to see a dermatologist can often be 9–12 months. For many people, that is a long time to wait, especially when warts cause discomfort or pain.",
+
+            "In search of a better solution, I spoke with international colleagues who introduced me to Swift microwave technology. Clinical studies have shown up to an 85% success rate in the treatment of warts, and after learning more about the technology, I knew this treatment belonged in Iceland.",
+
+            "One of the main benefits of Swift treatment is that it works with the body's natural defenses. Unlike many traditional treatments, the goal is not to directly destroy the wart, but rather to activate the immune system to respond to the virus that causes it, allowing the body to recognize and eliminate it naturally.",
+
+            "Swift treatment is less invasive than many other treatments, such as freezing, acid treatments, or injection therapies, which can cause more discomfort and pain.\nSwift works with the body – not against it.",
+
+            "Ester Ósk\nLicensed Podiatrist"
+        ]
+    },
+
+    "popup": {
+        "beware": "Please Note",
+        "text1": "Most people require 3–4 treatments, with each session paid for individually.",
+        "text2": "People who wear hearing aids must remove them before treatment.",
+        "text3": "SWIFT wart treatment is suitable for most people, with the following exceptions:"
+    }
+}

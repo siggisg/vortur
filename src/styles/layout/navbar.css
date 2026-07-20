@@ -92,6 +92,28 @@
   -webkit-appearance: none;
 }
 
+.navbar-language-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.navbar-language-button img {
+  width: 24px;
+  height: auto;
+  display: block;
+}
+
+.navbar-language-button {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.navbar-language-button:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
 
 .navbar-socials {
   display: flex;

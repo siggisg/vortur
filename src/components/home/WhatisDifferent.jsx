@@ -1,35 +1,32 @@
 import '../../styles/home/whatisdifferent.css';
+import { useTranslation } from 'react-i18next'
 
 function WhatIsDifferent() {
+
+  const { t } = useTranslation()
+
   return (
     <div className="whatisdifferent">
       <h1 className="whatisdifferent-headline">
-        Hvað gerir SWIFT vörtumeðferð frábrugðna öðrum meðferðum?
+        {t('whatisDifferent.headline')}
       </h1>
 
       <p className="whatisdifferent-text-1">
-        SWIFT hefur verið frábær viðbót við vörtumeðferð af mörgum ástæðum:
+        {t('whatisDifferent.text')}
       </p>
 
       <ul className="whatisdifferent-list">
-        <li>
-          Meðferðartíminn er stuttur og krefst engrar hvíldar, sem þýðir að þú
-          getur farið beint aftur í íþróttir eða aðra virkni strax eftir
-          meðferðina.
-        </li>
+        <li>{t('whatisDifferent.list1')}</li>
 
-        <li>
-          Enginn sársauki eftir meðferðina en doði og hiti getur komið á svæðið
-          sem getur verið í einhverja daga eftir.
-        </li>
+        <li>{t('whatisDifferent.list2')}</li>
 
-        <li>Minni hætta á sýkingu og öramyndun.</li>
+        <li>{t('whatisDifferent.list3')}</li>
 
-        <li>Enginn skaði verður á nærliggjandi húð og vefjum.</li>
+        <li>{t('whatisDifferent.list4')}</li>
 
-        <li>Engar umbúðir eru nauðsynlegar.</li>
+        <li>{t('whatisDifferent.list5')}</li>
 
-        <li>Enginn reykur eða bruni.</li>
+        <li>{t('whatisDifferent.list6')}</li>
       </ul>
     </div>
   );

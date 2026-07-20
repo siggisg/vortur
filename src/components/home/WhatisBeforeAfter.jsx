@@ -1,8 +1,13 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next'
+
 
 import '../../styles/home/whatisbeforeafter.css';
 
 function WhatIsBeforeAfter() {
+
+  const { t } = useTranslation()
+
   return (
     <div className="whatisbeforeafter">
       <div className="whatisbeforeafter-image">
@@ -12,13 +17,12 @@ function WhatIsBeforeAfter() {
 
       <div className="whatisbeforeafter-linktopage">
         <p className="whatisbeforeafter-text">
-          Hér má sjá niðurstöður eftir þrjú skipti með SWIFT meðferð, til að sjá
-          fleiri fyrir og eftir myndir{' '}
+        {t('whatisBeforeAfter.text')}{' '}
           <Link
             to="/fyrir-og-eftir"
             className="whatisbeforeafter-link"
           >
-            smellið hér.
+            {t('whatisBeforeAfter.link')}
           </Link>
         </p>
       </div>
