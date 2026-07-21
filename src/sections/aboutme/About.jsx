@@ -14,6 +14,7 @@ function About() {
           alt="Ester Ósk"
           width="759"
           height="1163"
+          fetchPriority="high"
         />
       </div>
 
