@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Popup from "../ui/Popup";
+import StructuredData from "./StructuredData";
 import { useState } from "react";
 
 function LanguageHandler() {
@@ -27,6 +28,8 @@ function Layout() {
 
   return (
     <>
+      <StructuredData />
+
       <LanguageHandler />
 
       <Navbar openPopup={() => setShowPopup(true)} />
