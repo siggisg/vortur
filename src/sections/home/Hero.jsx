@@ -50,7 +50,7 @@ function Hero({ openPopup }) {
 
       <div className="hero-img-fade">
         <img
-          src="/swiftvel.png"
+          src="/swiftvel.webp"
           alt="SWIFT meðferðartæki"
         />
       </div>

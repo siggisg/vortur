@@ -10,8 +10,10 @@ function About() {
 
       <div className="about-photo">
         <img
-          src="/aboutme.jpeg"
-          alt="About me"
+          src="/aboutme.webp"
+          alt="Ester Ósk"
+          width="759"
+          height="1163"
         />
       </div>
 

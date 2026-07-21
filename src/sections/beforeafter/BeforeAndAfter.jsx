@@ -9,20 +9,20 @@ function BeforeAndAfter() {
   const { t } = useTranslation()
   const images = [
     {
-      before: '/1 fyrir.jpg',
-      after: '/1 eftir.jpg',
+      before: '/1 fyrir.webp',
+      after: '/1 eftir.webp',
     },
     {
-      before: '/2 fyrir.jpg',
-      after: '/2 eftir.jpg',
+      before: '/2 fyrir.webp',
+      after: '/2 eftir.webp',
     },
     {
-      before: '/3 fyrir.jpg',
-      after: '/3 eftir.jpg',
+      before: '/3 fyrir.webp',
+      after: '/3 eftir.webp',
     },
     {
-      before: '/4 fyrir.jpg',
-      after: '/4 eftir.jpg',
+      before: '/4 fyrir.webp',
+      after: '/4 eftir.webp',
     },
   ];
 

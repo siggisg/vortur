@@ -27,6 +27,7 @@ function Footer() {
         <div className="footer-socials">
           <a
             href="https://www.facebook.com/profile.php?id=61590005321231&sk=about&locale=is_IS"
+            aria-label="Facebook"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -35,6 +36,7 @@ function Footer() {
 
           <a
             href="https://www.instagram.com/vortur.is/"
+            aria-label="Instagram"
             target="_blank"
             rel="noopener noreferrer"
           >
