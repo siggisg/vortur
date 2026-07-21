@@ -11,6 +11,9 @@ function BeforeAfterSlider({ beforeImage, afterImage }) {
         src={beforeImage}
         alt="Before"
         className="comparison-image"
+        fetchPriority="high"
+        width="1920"
+        height="1080"
       />
 
       <div
@@ -23,6 +26,9 @@ function BeforeAfterSlider({ beforeImage, afterImage }) {
           src={afterImage}
           alt="After"
           className="comparison-image"
+          fetchPriority="high"
+          width="1920"
+          height="1080"
         />
       </div>
 
