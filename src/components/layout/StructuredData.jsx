@@ -1,7 +1,7 @@
 function StructuredData() {
     const schema = {
       "@context": "https://schema.org",
-      "@type": "MedicalBusiness",
+      "@type": "LocalBusiness",
       "name": "Vörtur",
       "url": "https://vortur.is",
       "description": "Swift örbylgjumeðferð við vörtum á Íslandi.",
