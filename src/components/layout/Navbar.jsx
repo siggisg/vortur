@@ -42,7 +42,7 @@ function Navbar({ openPopup }) {
         <div className="navbar-logo">
           <Link to={`/${lang}`}>
             <div className="logo-container">
-              <img src="/vorturlogo.svg" alt="Logo" />
+              <img src="/vorturLogoNewNoText.svg" alt="Logo" />
             </div>
           </Link>
         </div>
