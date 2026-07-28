@@ -26,6 +26,8 @@ function Navbar({ openPopup }) {
     setMenuOpen(false);
   };
 
+  console.log(lang);
+
   return (
     <>
       <nav className="navbar">

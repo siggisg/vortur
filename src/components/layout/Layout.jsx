@@ -1,36 +1,33 @@
-import { Outlet } from "react-router-dom";
-import { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Navigate, Outlet, useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Popup from "../ui/Popup";
 import StructuredData from "./StructuredData";
-import { useState } from "react";
-
-function LanguageHandler() {
-  const { lang } = useParams();
-  const { i18n } = useTranslation();
-
-  useEffect(() => {
-    if (lang === "is" || lang === "en") {
-      i18n.changeLanguage(lang);
-    }
-  }, [lang, i18n]);
-
-  return null;
-}
-
 
 function Layout() {
+  const { lang } = useParams();
+  const { i18n } = useTranslation();
   const [showPopup, setShowPopup] = useState(false);
+
+  const supportedLanguages = ["is", "en"];
+  const isValidLanguage = supportedLanguages.includes(lang);
+
+  useEffect(() => {
+    if (isValidLanguage && i18n.language !== lang) {
+      i18n.changeLanguage(lang);
+    }
+  }, [lang, i18n, isValidLanguage]);
+
+  if (!isValidLanguage) {
+    return <Navigate to="/is" replace />;
+  }
 
   return (
     <>
       <StructuredData />
-
-      <LanguageHandler />
 
       <Navbar openPopup={() => setShowPopup(true)} />
 
